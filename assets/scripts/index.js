@@ -40,39 +40,39 @@ function displaySongs(song){
     </div>
     `
 }
-//     let url = 'http://localhost:3000/songs'
-//     let music = {}
-// function uploadNewMusic(){
-//     fetch(url, {
-//         method:'POST',
-//         headers:{
-//             "content-type":"application/json",
-//             Accept:"application/json"
-//         },
-//         body:JSON.stringify(music)
-//     })
-// }
+    let url = 'http://localhost:3000/songs'
+    let music = {}
+function uploadNewMusic(){
+    fetch(url, {
+        method:'POST',
+        headers:{
+            "content-type":"application/json",
+            Accept:"application/json"
+        },
+        body:JSON.stringify(music)
+    })
+}
 
-// function submitNewMusic(){
-//     document.querySelector('form').addEventListener('submit', (e) =>{
-//         e.preventDefault()
-//         const sName = document.getElementById('sname').value
-//         const sPrice = document.getElementById('sprice').value
-//         const songLink = document.getElementById("song").value
-//         const songImage = document.getElementById("image").value
-//         console.log(songLink)
-//         document.querySelector('form').reset()
-//         if(sName == "" || sPrice == ""){
-//             document.getElementById('error').innerHTML = "all input fields are required".toUpperCase()
-//         }else{
-//             music.name = sName
-//             music.price = sPrice
-//             music.src = songLink
-//             music.img = songImage
-//         }
-//         uploadNewMusic()
-//     })
-// }
+function submitNewMusic(){
+    document.querySelector('form').addEventListener('submit', (e) =>{
+        e.preventDefault()
+        const sName = document.getElementById('sname').value
+        const sPrice = document.getElementById('sprice').value
+        const songLink = document.getElementById("song").value
+        const songImage = document.getElementById("image").value
+        console.log(songLink)
+        document.querySelector('form').reset()
+        if(sName == "" || sPrice == ""){
+            document.getElementById('error').innerHTML = "all input fields are required".toUpperCase()
+        }else{
+            music.name = sName
+            music.price = sPrice
+            music.src = songLink
+            music.img = songImage
+        }
+        uploadNewMusic()
+    })
+}
 function fetchLocalMusic(){
     fetch(url)
     .then(res => res.json())
