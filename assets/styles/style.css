@@ -135,18 +135,25 @@ audio{
     justify-content: center;
     padding: 10px 0 10px 40px;
 }
-form{
+#submission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     color: white;
+    flex-direction: column;
+    margin: 20px 0;    
 }
-form input{
+h2{
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+label{
+    font-size: 20px;
+    margin: 8px;
+}
+input{
+    font-size: 20px;
     padding: 10px;
-    margin: 10px;
 }
-form label{
-    padding: 12px;
-    margin: 10px;
-}
-.hide{
-    display: none;
-} 
