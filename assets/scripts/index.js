@@ -73,30 +73,30 @@ function displaySongs(song){
 //         uploadNewMusic()
 //     })
 // }
-// function fetchLocalMusic(){
-//     fetch(url)
-//     .then(res => res.json())
-//     .then(data => data.forEach(song=>{
-//         displayLocalSongs(song)
-//     }))
-// }
+function fetchLocalMusic(){
+    fetch(url)
+    .then(res => res.json())
+    .then(data => data.forEach(song=>{
+        displayLocalSongs(song)
+    }))
+}
 
-// function displayLocalSongs(song){
-//     let displayDiv = document.querySelector(".cards")
-//     displayDiv.innerHTML += `  
-//     <div class="music-card">    
-//         <img src="${song.img}" alt="" id="img">
+function displayLocalSongs(song){
+    let displayDiv = document.querySelector(".cards")
+    displayDiv.innerHTML += `  
+    <div class="music-card">    
+        <img src="${song.img}" alt="" id="img">
 
-//         <h3>${song["name"]}</h3>
+        <h3>${song["name"]}</h3>
 
-//         <audio controls>
-//             <source src="${song["src"]}">
-//         </audio>
+        <audio controls>
+            <source src="${song["src"]}">
+        </audio>
 
-//         <button id="edit">Edit</button>
-//     </div>
-//     `
-// }
+        <button id="edit">Edit</button>
+    </div>
+    `
+}
 
 
 // {/* <div id="price">
