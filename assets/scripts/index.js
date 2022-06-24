@@ -3,16 +3,16 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 
-// function fetchAllSongs(){
-//     fetch('https://acnhapi.com/v1a/songs/?_limit=20')
-//     .then(res => res.json())
-//     .then(songs => {
-//         songs = songs.slice(0, 10)
-//         songs.forEach(song => {
-//             displaySongs(song)
-//         })
-//     })
-// }
+function fetchAllSongs(){
+    fetch('https://acnhapi.com/v1a/songs/?_limit=20')
+    .then(res => res.json())
+    .then(songs => {
+        songs = songs.slice(0, 10)
+        songs.forEach(song => {
+            displaySongs(song)
+        })
+    })
+}
 // function displaySongs(song){
 //     let displayDiv = document.querySelector(".cards")
 //     displayDiv.innerHTML += `  
