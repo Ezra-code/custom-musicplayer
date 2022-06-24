@@ -41,7 +41,14 @@ li:hover{
     border-radius: 12px;
     cursor: pointer;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+    background-color: white;
+}
 #description{ 
     background-color: black;
     margin-right: 200px;
@@ -163,4 +170,5 @@ input{
     color: white;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 }
