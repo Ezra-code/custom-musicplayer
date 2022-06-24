@@ -101,9 +101,3 @@ function displayLocalSongs(song){
     </div>
     `
 }
-
-
-// {/* <div id="price">
-// <p id="buy-price">buying price: <span>${song["buy-price"]}</span></p>
-// <p id="sell-price">selling price: <span>${song["sell-price"]}</span></p>
-// </div> */}
