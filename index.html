@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f685c0da81.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/styles/style.css">
-    <title>Music Shop</title>
+    <title>Music Island</title>
+    <script src="https://kit.fontawesome.com/f685c0da81.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <div class="header">
@@ -26,7 +27,6 @@
 
    <p id="description"> <strong>Fun Fact About Music</strong> <br>
     Music can improve mood, decrease pain and anxiety, and facilitate opportunities for emotional expression. Research suggests that music can benefit our physical and mental health in numerous ways. Music therapy is used by our hospice and palliative care board-certified music therapist to enhance conventional treatment for a variety of illnesses and disease processes – from anxiety, depression and stress, to the management of pain and enhancement of functioning after degenerative neurologic disorders.
-    That is why we here at music island want to offer you that lively dosage of music. If you have any classical you can sell it to us.
    </p>
 
    <div class="cards">
@@ -35,12 +35,16 @@
 
    <div id="submission">
        <h2>Upload a New Song</h2>
+       <p id="error"></p>
         <form>
             <label for="sname">Song Name:</label><br>
             <input type="text" id="sname" name="sname" placeholder="Song Name"><br>
             <label for="sprice">Song Price:</label><br>
             <input type="text" id="sprice" name="sprice" placeholder="Song Price"><br><br>
-            <input type="file"><br><br>
+            <label for="image" >Song Image:</label><br>
+            <input type="file" id="image"><br><br>
+            <label for="song">Song</label><br>
+            <input type="file" id="song"><br><br>
             <input type="submit" value="Submit" id="submit">
         </form>
    </div>
