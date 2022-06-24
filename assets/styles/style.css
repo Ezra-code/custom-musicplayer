@@ -1,0 +1,150 @@
+body{
+    background-image: url('https://www.verdict.co.uk/wp-content/uploads/2019/09/disrupt-music-industry.jpg');
+    background-size: contain;
+    font: sanserif;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.left{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.header > h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+
+#icon{
+    border-radius: 20;
+    height: 90px;
+    width: 100px;
+}
+li{
+    display: inline;
+    padding: 10px;
+    font-size: 25px;
+}
+li:hover{
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+/* 
+#description{ 
+    background-color: black;
+    margin-right: 200px;
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.cards{
+    clear: right;
+    margin: 30vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.music-card{
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 12px;
+    width: 400px;
+}
+.music-card:hover{
+    background: black;
+    border-radius: 0 70px;
+    transition: .9s ease-in-out;
+}
+img{
+    padding: 10px;
+    margin: 10px 70px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+h3{
+    text-align: center;
+    font-weight: 700px;
+    font-size: 25px;
+}
+#price,
+.price-button{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+#buy{
+    background-color: green;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#buy:hover{
+    border: 2px solid green;
+    background: none;
+}
+#sell{
+    background-color: red;
+    margin-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+}
+#sell:hover{
+    border: 2px solid red;
+    background: none;
+}
+
+#edit{
+    width: 50%;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background-color: blue;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#edit:hover{
+    border: 2px solid blue;
+    background: none;
+}
+audio{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 40px;
+}
+form{
+    background-color: black;
+    color: white;
+}
+form input{
+    padding: 10px;
+    margin: 10px;
+}
+form label{
+    padding: 12px;
+    margin: 10px;
+}
+.hide{
+    display: none;
+} */
