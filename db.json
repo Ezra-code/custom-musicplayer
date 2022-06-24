@@ -6,34 +6,6 @@
       "artist": "Alan Walker",
       "img": "https://i1.sndcdn.com/artworks-JqNkcrpSW06GYybK-d2SuZw-t500x500.jpg",
       "src": "assets/music/Faded.mp3"
-    },
-    {
-      "id": 2,
-      "name": "sura yako",
-      "artist": "sura yako",
-      "img": "https://i.ytimg.com/vi/lEJw64Zl28U/sddefault.jpg",
-      "src": "assets/music/SAUTI SOL - SURA YAKO (OFFICIAL MUSIC VIDEO) SMS [Skiza 1063395] to 811(MP3_320K).mp3"
-    },
-    {
-      "id": 3,
-      "name": "love me",
-      "artist": "love me",
-      "img": "https://i.pinimg.com/564x/a5/ca/36/a5ca362bfaff8695a388b57475a5fd2c.jpg",
-      "src": "assets/music/Love Me Like You Do - Ellie Goulding _ [NCS Release](MP3_320K).mp3"
-    },
-    {
-      "id": 4,
-      "name": "From a little cottage",
-      "artist": "From a little cottage",
-      "img": "https://img.youtube.com/vi/Ksg-6gYP_us/0.jpg",
-      "src": "assets/music/Duane Stephenson - _Cottage In Negril_(MP3_320K).mp3"
-    },
-    {
-      "id": 6,
-      "name": "wavin flag",
-      "artist": "knan",
-      "img": "https://cdns-images.dzcdn.net/images/cover/1fc68087a940ef86d9c304e39e6fa4c5/500x500.jpg",
-      "src": "assets/music/K_NAAN - Wavin_ Flag (Coca-Cola Celebration Mix)(MP3_320K).mp3"
     }
   ]
 }
