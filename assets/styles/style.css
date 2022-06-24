@@ -25,9 +25,10 @@ body{
 }
 
 #icon{
-    border-radius: 20;
+    border-radius: 50%;
     height: 90px;
-    width: 100px;
+    width: 90px;
+    padding: 3px;
 }
 li{
     display: inline;
@@ -71,7 +72,7 @@ li:hover{
     border-radius: 0 70px;
     transition: .9s ease-in-out;
 }
-img{
+#img{
     padding: 10px;
     margin: 10px 70px;
     width: 250px;
