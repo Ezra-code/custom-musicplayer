@@ -27,11 +27,6 @@ function displaySongs(song){
             <source src="${song["music_uri"]}">
         </audio>
 
-        <div id="price">
-            <p id="buy-price">buying price: <span>${song["buy-price"]}</span></p>
-            <p id="sell-price">selling price: <span>${song["sell-price"]}</span></p>
-        </div>
-
         <div class="price-button">
             <button id="buy">Favorite <i class="fa-solid fa-heart"></i></button>
             <button id="sell">Like <i class="fa-solid fa-thumbs-up"></i></button>
