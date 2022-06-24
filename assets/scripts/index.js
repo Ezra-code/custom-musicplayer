@@ -93,7 +93,11 @@ function displayLocalSongs(song){
             <source src="${song["src"]}">
         </audio>
 
-        <button id="edit">Edit</button>
+        <div class="price-button">
+            <button id="buy">Favorite <i class="fa-solid fa-heart"></i></button>
+            <button id="sell">Like <i class="fa-solid fa-thumbs-up"></i></button>
+        </div>
+
     </div>
     `
 }
