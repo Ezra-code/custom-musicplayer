@@ -87,7 +87,7 @@ function displayLocalSongs(song){
             <source src="${song["src"]}">
         </audio>
 
-        <div class="social-button>
+        <div class="social-button">
             <button id="favorite">Favorite <i class="fa-solid fa-heart"></i></button>
             <button id="like">Like <i class="fa-solid fa-thumbs-up"></i></button>
         </div>
