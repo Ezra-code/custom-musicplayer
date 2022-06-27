@@ -61,7 +61,6 @@ function submitNewMusic(){
             document.getElementById('error').innerHTML = "all input fields are required".toUpperCase()
         }else{
             music.name = sName
-            music.price = sPrice
             music.src = songLink
             music.img = songImage
         }
