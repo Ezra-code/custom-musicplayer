@@ -52,12 +52,11 @@ function submitNewMusic(){
     document.querySelector('form').addEventListener('submit', (e) =>{
         e.preventDefault()
         const sName = document.getElementById('sname').value
-        const sPrice = document.getElementById('sprice').value
         const songLink = document.getElementById("song").value
         const songImage = document.getElementById("image").value
         console.log(songLink)
         document.querySelector('form').reset()
-        if(sName == "" || sPrice == ""){
+        if(sName == ""){
             document.getElementById('error').innerHTML = "all input fields are required".toUpperCase()
         }else{
             music.name = sName
