@@ -91,8 +91,8 @@ h3{
     font-weight: 700px;
     font-size: 25px;
 }
-#price,
-.price-button{
+#social,
+.social-button{
     display: flex;
     justify-content: space-between;
     margin: 0 20px;
@@ -105,38 +105,27 @@ button{
     border-radius: 6px;
     border: none;
 }
-#buy{
+#favorite{
     background-color: green;
     margin-bottom: 5px;
     cursor: pointer;
 }
-#buy:hover{
+#favorite:hover{
     border: 2px solid green;
     background: none;
 }
-#sell{
+#like{
     background-color: red;
     margin-bottom: 5px;
     cursor: pointer;
     position: relative;
 }
-#sell:hover{
+#like:hover{
     border: 2px solid red;
     background: none;
 }
 
-#edit{
-    width: 50%;
-    margin-left: 100px;
-    margin-bottom: 10px;
-    background-color: blue;
-    margin-bottom: 5px;
-    cursor: pointer;
-}
-#edit:hover{
-    border: 2px solid blue;
-    background: none;
-}
+
 audio{
     display: flex;
     justify-content: center;

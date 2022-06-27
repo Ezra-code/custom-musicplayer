@@ -27,9 +27,9 @@ function displaySongs(song){
             <source src="${song["music_uri"]}">
         </audio>
 
-        <div class="price-button">
-            <button id="buy">Favorite <i class="fa-solid fa-heart"></i></button>
-            <button id="sell">Like <i class="fa-solid fa-thumbs-up"></i></button>
+        <div class="social-button>
+            <button id="favorite">Favorite <i class="fa-solid fa-heart"></i></button>
+            <button id="like">Like <i class="fa-solid fa-thumbs-up"></i></button>
         </div>
 
     </div>
@@ -88,9 +88,9 @@ function displayLocalSongs(song){
             <source src="${song["src"]}">
         </audio>
 
-        <div class="price-button">
-            <button id="buy">Favorite <i class="fa-solid fa-heart"></i></button>
-            <button id="sell">Like <i class="fa-solid fa-thumbs-up"></i></button>
+        <div class="social-button>
+            <button id="favorite">Favorite <i class="fa-solid fa-heart"></i></button>
+            <button id="like">Like <i class="fa-solid fa-thumbs-up"></i></button>
         </div>
 
     </div>
