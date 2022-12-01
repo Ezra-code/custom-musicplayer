@@ -1,52 +1,13 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/f685c0da81.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/styles/style.css">
-    <title>Music Island</title>
-    <script src="https://kit.fontawesome.com/f685c0da81.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b5cbb003c6.js" crossorigin="anonymous"></script>
+    <title>Custom player</title>
 </head>
 <body>
-   <div class="header">
-       <div class="left">
-       <h1>Music Island </h1>
-        <img src="data:image/png;base64,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" id="icon" alt="">
-       </div>
-       <nav>
-           <ul>
-            <li><a href="#submission"">upload song</a></li>
-               <li>home</li>
-               <li>about</li>
-               <li>contact</li>
-           </ul>
-       </nav>
-   </div>
-
-   <p id="description"> <strong>Fun Fact About Music</strong> <br>
-    Music can improve mood, decrease pain and anxiety, and facilitate opportunities for emotional expression. Research suggests that music can benefit our physical and mental health in numerous ways. Music therapy is used by our hospice and palliative care board-certified music therapist to enhance conventional treatment for a variety of illnesses and disease processes – from anxiety, depression and stress, to the management of pain and enhancement of functioning after degenerative neurologic disorders.
-   </p>
-
-   <div class="cards">
-   
-   </div>
-
-   <div id="submission">
-       <h2>Upload a New Song</h2>
-       <p id="error"></p>
-        <form>
-            <label for="sname">Song Name:</label><br>
-            <input type="text" id="sname" name="sname" placeholder="Song Name"><br>
-            <label for="image" >Song Image:</label><br>
-            <input type="file" id="image"><br><br>
-            <label for="song">Song</label><br>
-            <input type="file" id="song"><br><br>
-            <input type="submit" value="Submit" id="submit">
-        </form>
-   </div>
-
-    <script src="./assets/scripts/index.js"></script>
+    
 </body>
-</html> 
+</html>
