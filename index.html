@@ -7,9 +7,11 @@
     <title>Custom player</title>
     <!-- <script src="https://kit.fontawesome.com/b5cbb003c6.js" crossorigin="anonymous"></script> -->
     <!-- CSS only -->
+    <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 <body>
+  <div class="player">
     <div class="wrapper">
         <div class="details">
             <div class="now-playing">Playing x of y</div>
@@ -49,7 +51,7 @@
             </div>
         </div>
 
-        <div class="wave">
+        <div class="wave" id="wave">
             <span class="stroke"></span>
             <span class="stroke"></span>
             <span class="stroke"></span>
@@ -59,5 +61,8 @@
             <span class="stroke"></span>
         </div>
     </div>
+  </div>
+
+  <script src="./assets/scripts/index.js"></script>
 </body>
 </html>
