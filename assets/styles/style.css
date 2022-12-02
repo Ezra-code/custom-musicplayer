@@ -159,7 +159,7 @@ i.bi-pause-circle-fill{
     height: 150%;
     width: 10px;
     border-radius: 50px;
-    margin: 0px 50px;
+    margin: 0px 10px;
     animation: animate 1.4s linear infinite;
 }
 

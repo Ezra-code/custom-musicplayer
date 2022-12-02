@@ -1,0 +1,31 @@
+{ "songs":[
+  {
+      "id":1,
+      "image":"assets/images/faded.png",
+      "name":"Faded",
+      "Artist":"Alan Walker",
+      "Music":"assets/music/music_Faded.mp3"
+  },
+  {
+      "id":2,
+      "image":"assets/images/fallingdown.jpg",
+      "name":"Falling Down",
+      "Artist":"Lil Peep",
+      "Music":"assets/music/music_fallingdown.mp3"
+  },    
+  {
+      "id":3,
+      "image":"assets/images/ratherbe.jpg",
+      "name":"Rather Be",
+      "Artist":"Clean Bandit",
+      "Music":"assets/music/music_Rather Be.mp3"
+  },
+  {
+      "id":4,
+      "image":"assets/images/stay.png",
+      "name":"Faded",
+      "Artist":"Alan Walker",
+      "Music":"assets/music/music_stay.mp3"
+  }
+]
+}
